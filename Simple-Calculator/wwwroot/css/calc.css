@@ -1,0 +1,58 @@
+.Lines {
+    background-color: #fff;
+    border: 8px solid #ccc;
+    width: 19vw;
+    margin: 100px;
+    
+}
+
+.Disp {
+    background-color: #000000;
+    border: 7px solid #ccc;
+    width: 18vw;
+    height: 10vh;
+    margin-right: 15px;
+    
+}
+
+.calc-button,.op-button,.num-button,.zero-button,.dot-button,.coma-button,.eq-button {
+    width: 50px;
+    height: 50px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.op-button,.num-button,.zero-button,.dot-button,.coma-button,.eq-button {
+    background-color: #d3d3d3;
+}
+
+.eq-button {
+    background-color: #ffd800;
+    width: 110px;
+}
+
+.calc-button:hover,.op-button:hover,.num-button:hover,.zero-button:hover,.dot-button:hover,.coma-button:hover,.eq-button:hover {
+   background-color: #bfbfbf;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.border-0 {
+    border: none;
+}
+
+.firstline,.secondline,.thirdline,.fourthline, .fifthline{
+    display: flex;
+    justify-content: center;
+}
+
